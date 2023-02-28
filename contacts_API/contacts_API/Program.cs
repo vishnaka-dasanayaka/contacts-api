@@ -1,5 +1,6 @@
 ﻿using contacts_API.Data;
 using Microsoft.EntityFrameworkCore;
+using MySqlConnector;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,8 +16,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ContactsAPIDbContext>(options => options.UseInMemoryDatabase("ContactsDb"));
 
 //sql server
-//builder.Services.AddDbContext<ContactsAPIDbContext>(options =>
-    //options.UseSqlServer(builder.Configuration.GetConnectionString("contacts_APIConnectionString")));
+
 
 var app = builder.Build();
 
