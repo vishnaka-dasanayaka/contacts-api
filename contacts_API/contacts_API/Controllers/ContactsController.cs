@@ -84,6 +84,22 @@ namespace contacts_API.Controllers
 
             return NotFound();
         }
+
+        [HttpDelete]
+        [Route("{id:guid}")]
+
+        public async Task<IActionResult> DeleteContact([FromRoute] Guid id)
+        {
+            var contact = await dbContext.Contacts.FindAsync(id);
+
+            if(contact != null)
+            {
+                dbContext.Remove(contact);
+                await dbContext.SaveChangesAsync();
+            }
+
+            return NotFound();
+        }
     }
 }
 
