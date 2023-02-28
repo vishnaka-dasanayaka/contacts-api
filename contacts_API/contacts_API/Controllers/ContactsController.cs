@@ -96,6 +96,7 @@ namespace contacts_API.Controllers
             {
                 dbContext.Remove(contact);
                 await dbContext.SaveChangesAsync();
+                return Ok(contact);
             }
 
             return NotFound();
