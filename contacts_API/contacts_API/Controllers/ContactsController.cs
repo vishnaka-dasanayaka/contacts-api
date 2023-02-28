@@ -21,7 +21,7 @@ namespace contacts_API.Controllers
 
         public ContactsController(ContactsAPIDbContext dbContext)
         {
-
+            this.dbContext = dbContext;
         }
 
         // GET: /<controller>/
