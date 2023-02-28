@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4q/vWj/1CTXmJ3imuPOt6j1Fupsd6UFaxTXvCqshfrgNCmHiAFYHx5LgnPVjh4XmpxKK8e/v0roxLlrq8P/0hQ==",
+  "dgSpecHash": "5f+jMdysaXfbBcm2aIaaPx9zmHZbgsScQm0zEpbeA4XjpfWNQd3hBLgbwKNjGvDgphPaqyE5Mq+3JDmdGuc58A==",
   "success": true,
   "projectFilePath": "/Users/vishnaka/Documents/GitHub/contacts-api/contacts_API/contacts_API/contacts_API.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,8 @@
     "/Users/vishnaka/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
     "/Users/vishnaka/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "/Users/vishnaka/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/Users/vishnaka/.nuget/packages/mysqlconnector/2.2.5/mysqlconnector.2.2.5.nupkg.sha512",
+    "/Users/vishnaka/.nuget/packages/pomelo.entityframeworkcore.mysql/7.0.0/pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
     "/Users/vishnaka/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/Users/vishnaka/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "/Users/vishnaka/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

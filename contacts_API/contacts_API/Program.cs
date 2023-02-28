@@ -12,11 +12,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //Inmemory DB
-//builder.Services.AddDbContext<ContactsAPIDbContext>(options => options.UseInMemoryDatabase("ContactsDb"));
+builder.Services.AddDbContext<ContactsAPIDbContext>(options => options.UseInMemoryDatabase("ContactsDb"));
 
 //sql server
-builder.Services.AddDbContext<ContactsAPIDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("contacts_APIConnectionString")));
+//builder.Services.AddDbContext<ContactsAPIDbContext>(options =>
+    //options.UseSqlServer(builder.Configuration.GetConnectionString("contacts_APIConnectionString")));
 
 var app = builder.Build();
 
