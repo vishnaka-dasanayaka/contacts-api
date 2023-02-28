@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using contacts_API.Data;
+using contacts_API.Models;
+using Microsoft.EntityFrameworkCore;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -24,9 +26,28 @@ namespace contacts_API.Controllers
 
         // GET: /<controller>/
         [HttpGet]
-        public IActionResult GetContacts()
+        public async Task<IActionResult> GetContacts()
         {
-            return Ok(dbContext.Contacts.ToList());
+            return Ok(await dbContext.Contacts.ToListAsync());
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> AddContact(AddContactRequest addContactRequest)
+        {
+            var contact = new Contact()
+            {
+                Id = Guid.NewGuid(),
+                Address = addContactRequest.Address,
+                Email = addContactRequest.Email,
+                FullName = addContactRequest.FullName,
+                Phone = addContactRequest.Phone
+            };
+
+            await dbContext.Contacts.AddAsync(contact);
+            await dbContext.SaveChangesAsync();
+
+            return Ok(contact);
         }
     }
 }
