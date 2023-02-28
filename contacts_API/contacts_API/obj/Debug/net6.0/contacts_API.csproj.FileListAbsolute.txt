@@ -25,3 +25,14 @@
 /Users/vishnaka/Documents/GitHub/contacts-api/contacts_API/contacts_API/obj/Debug/net6.0/contacts_API.pdb
 /Users/vishnaka/Documents/GitHub/contacts-api/contacts_API/contacts_API/obj/Debug/net6.0/contacts_API.genruntimeconfig.cache
 /Users/vishnaka/Documents/GitHub/contacts-api/contacts_API/contacts_API/obj/Debug/net6.0/ref/contacts_API.dll
+/Users/vishnaka/Documents/GitHub/contacts-api/contacts_API/contacts_API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/vishnaka/Documents/GitHub/contacts-api/contacts_API/contacts_API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/vishnaka/Documents/GitHub/contacts-api/contacts_API/contacts_API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/vishnaka/Documents/GitHub/contacts-api/contacts_API/contacts_API/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/vishnaka/Documents/GitHub/contacts-api/contacts_API/contacts_API/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/vishnaka/Documents/GitHub/contacts-api/contacts_API/contacts_API/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/vishnaka/Documents/GitHub/contacts-api/contacts_API/contacts_API/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/vishnaka/Documents/GitHub/contacts-api/contacts_API/contacts_API/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/Users/vishnaka/Documents/GitHub/contacts-api/contacts_API/contacts_API/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/vishnaka/Documents/GitHub/contacts-api/contacts_API/contacts_API/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/Users/vishnaka/Documents/GitHub/contacts-api/contacts_API/contacts_API/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
