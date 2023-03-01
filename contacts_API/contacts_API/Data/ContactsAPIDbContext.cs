@@ -11,6 +11,6 @@ namespace contacts_API.Data
 		}
 
 		public DbSet<Contact> Contacts { get; set; }
-	}
+    }
 }
 
