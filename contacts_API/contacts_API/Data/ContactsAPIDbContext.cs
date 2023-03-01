@@ -4,13 +4,13 @@ using System;
 
 namespace contacts_API.Data
 {
-	public class ContactsAPIDbContext: DbContext  
+	public class ContactsAPIDbContext : DbContext
 	{
 		public ContactsAPIDbContext(DbContextOptions options) : base(options)
 		{
 		}
 
-		public DbSet<Contact> Contacts { get; set; }
+		public DbSet<Contact> Contacts { get; set;}
     }
 }
 

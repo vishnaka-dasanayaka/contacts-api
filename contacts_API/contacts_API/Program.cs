@@ -16,7 +16,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ContactsAPIDbContext>(options => options.UseInMemoryDatabase("ContactsDb"));
 
 //sql server
-
+//builder.Services.AddDbContext<ContactsAPIDbContext>(options =>
+  //  options.UseSqlServer(builder.Configuration.GetConnectionString("server=localhost;Database=contactDB;user=root;password=SVish@123;MultipleActiveResultSets=true")));
 
 var app = builder.Build();
 
